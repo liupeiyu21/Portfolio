@@ -1,5 +1,9 @@
 import Image from "next/image";
 import StarRating from "./StarRating/page";
+import Hero from "./hero/page";
+import Myself from "./myself/page";
+import MyComponent from "./simp/page"
+import Skill from "./skill/page"
 
 export default function Home() {
   return (
@@ -13,48 +17,23 @@ export default function Home() {
          </div>
       </nav>
       {/* ファスビュー */}
-      <div>
-        <p className="text-2xl sm:text-3xl text-[#515050]  mx-auto container pt-30 pl-35 ">リュウ ハイギョク</p>
-        <h1 className="text-2xl sm:text-5xl font-bold  mx-auto container pl-40 ">劉佩玉<span></span></h1>
-        <h3 className="mx-auto container pl-40 pt-8 font-bold text-[#535151]">出身：中国　河南省</h3>
-        <p className="mx-auto container pl-40 pt-2 text-[#8a8a8a] text-[18px] ">私は常に学び続け、チームワークや柔軟性、成長意欲を大切にしながら、
-        将来も新たな挑戦に取り組んでいきたいと考えています。</p>
+      <div className="flex ">
+        <div className="items-center">
+          <p className="text-2xl sm:text-3xl text-[#515050]  mx-auto container pt-30 pl-35 whitespace-nowrap">リュウ ハイギョク</p>
+          <h1 className="text-2xl sm:text-5xl font-bold  mx-auto container pl-40 ">劉佩玉<span></span></h1>
+          <h3 className="mx-auto container pl-40 pt-8 font-bold text-[#6b6969]">日本電子専門学校<br/><span className="text-[14px]">Webデザイン科</span></h3>
+          <h3 className="mx-auto container pl-40 pt-8 font-bold text-[#838080]">出身：中国　河南省</h3>
+          <p className="mx-auto container pl-40 pt-2 text-[#054685] text-[30px] font-extrabold">継続は力になり</p>
+        </div>
+        <Hero />
       </div>
-      <main className="mt-[150px]  rounded-t-[80px]  bg-blue-50">
+      <main className="mt-[150px] pt-[100px]   bg-blue-50">
 
-        <section className=" pb-[100px]">
-          <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">自己紹介</h2>
-          <div className="flex justify-center mx-auto container">
-            <div>
-              <p className="mx-auto container break-words font-bold text-[20px] mb-[40px]">日本電子専門学校　Webデザイン科</p>
-              <div  className="mb-[20px]">
-                <p>大学では中国で動物科学を専攻。</p>
-                <p>卒業後、乳製品製造業に就職し、牛乳の品質管理の仕事を担当しました。</p>
-                <p>主な業務内容はデータ分析と管理です。</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>日本の文化が好きで、日本に来ました。大学では独学でコーディングを学んだことがあり、<br/>さらに深く勉強するために、日本電子専門学校のWebデザイン科に進学しました。</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>1年間で、企画から実装までできるようになりました。</p>
-                <p>そして、コーディングを更に向上させるため、<br/>
-                学校の課題以外にも、JavaScriptでゲームなどの日常的な物作りをしています。</p>
-              </div>
-              <div className="mb-[20px]">
-                <p>私は常に学び続け、チームワークや柔軟性、成長意欲を大切にしながら、<br/>
-                将来も新たな挑戦に取り組んでいきたいと考えています。</p>
-              </div>
-            </div>
-            <Image
-            src="/myself.png"
-            width={260}
-            height={20}
-            pt-10
-            alt="私がパソコンを使ってる写真"
-            className=""
-            />
-          </div>
+        <section>
+          <Myself />
         </section>
+          <Skill />
+
 
         <section className="bg-[#c9ddf7] rounded-t-[80px] pb-[100px]">
           <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">技術スキル</h2>
@@ -127,12 +106,14 @@ export default function Home() {
               <p className="ml-[10px]">2.0 / 5.0</p>
              </div>
           </div>
+          {/* <MyComponent/> */}
 
           <section  className="bg-[#5899ee] mt-[200px] rounded-t-[80px] ">
             <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">制作物</h2>
           </section>
         </section>
       </main>
+     
     </div>
   );
 }

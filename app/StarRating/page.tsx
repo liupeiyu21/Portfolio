@@ -3,6 +3,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
 import { faStar as regularStar } from "@fortawesome/free-regular-svg-icons";
+import Image from "next/image";
+
 
 type Props = {
   rating: number;
@@ -10,7 +12,7 @@ type Props = {
 
 export default function StarRating({ rating }: Props) {
   return (
-    <div className="flex space-x-1 text-yellow-400">
+    <div className="flex space-x-3 text-yellow-400">
       {[1, 2, 3, 4, 5].map((i) => (
         <FontAwesomeIcon
           key={i}
