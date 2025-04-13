@@ -8,7 +8,7 @@ export default function Skill() {
     return(
 
                     <section className="flex justify-between mx-auto container ">
-                      <h2 className="ml-[140px]  text-[50px] text-[#054685] font-extrabold mb-[100px] pt-[100px]">技術スキル</h2>
+                      <h2 className="ml-[140px]  text-[50px] text-[#054685] font-extrabold mb-[100px] pt-[100px]">技術スキル<span className="text-[24px] text-[#000000] ml-[20px]">について</span></h2>
                       <div className="flex flex-col pt-[150px]">
                         <div className="flex items-center  border border-[#0000001a] rounded-[10px] mr-[100px] px-[150px] py-[5px] shadow-lg">
                           <Image 

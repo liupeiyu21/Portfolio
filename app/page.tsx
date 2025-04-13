@@ -2,8 +2,11 @@ import Image from "next/image";
 import StarRating from "./StarRating/page";
 import Hero from "./hero/page";
 import Myself from "./myself/page";
-import MyComponent from "./simp/page"
+// import MyComponent from "./simp/page"
 import Skill from "./skill/page"
+import Work from "./work/page";
+import AnimatedText from "./simp/page"
+import Myself2 from "./simp2/page"
 
 export default function Home() {
   return (
@@ -34,8 +37,16 @@ export default function Home() {
         </section>
           <Skill />
 
+          <Work />
 
-        <section className="bg-[#c9ddf7] rounded-t-[80px] pb-[100px]">
+          <Myself2 />
+
+      <div  className="min-h-screen">
+        <div className="h-[100vh] flex items-center justify-center">上のスペース</div>
+        <AnimatedText />
+        <div className="h-[100vh]" /> {/* 下のスペース */}
+      </div>
+        {/* <section className="bg-[#c9ddf7] rounded-t-[80px] pb-[100px]">
           <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">技術スキル</h2>
           <div className="flex justify-around mx-auto container mb-[150px]">
             <div className="flex items-center ">
@@ -106,12 +117,12 @@ export default function Home() {
               <p className="ml-[10px]">2.0 / 5.0</p>
              </div>
           </div>
-          {/* <MyComponent/> */}
+        
 
           <section  className="bg-[#5899ee] mt-[200px] rounded-t-[80px] ">
             <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">制作物</h2>
           </section>
-        </section>
+        </section> */}
       </main>
      
     </div>
