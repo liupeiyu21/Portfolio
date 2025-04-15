@@ -5,8 +5,9 @@ import Myself from "./myself/page";
 // import MyComponent from "./simp/page"
 import Skill from "./skill/page"
 import Work from "./work/page";
-import AnimatedText from "./simp/page"
-import Myself2 from "./simp2/page"
+
+
+
 
 export default function Home() {
   return (
@@ -39,13 +40,9 @@ export default function Home() {
 
           <Work />
 
-          <Myself2 />
+          
+         
 
-      <div  className="min-h-screen">
-        <div className="h-[100vh] flex items-center justify-center">上のスペース</div>
-        <AnimatedText />
-        <div className="h-[100vh]" /> {/* 下のスペース */}
-      </div>
         {/* <section className="bg-[#c9ddf7] rounded-t-[80px] pb-[100px]">
           <h2 className="text-center text-[30px] mb-[100px] pt-[50px]">技術スキル</h2>
           <div className="flex justify-around mx-auto container mb-[150px]">
