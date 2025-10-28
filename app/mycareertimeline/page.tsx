@@ -8,9 +8,11 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 export default function MyCarerTimeLine() {
   return (
-    <Timeline position="alternate">
-      <h2 className=" p-4  mx-auto container text-2xl font-bold" >学歴・職歴</h2>
+    <>
+    <h2 className=" p-4  mx-auto container text-2xl font-bold" >学歴・職歴</h2>
      
+    <Timeline position="alternate">
+
       <TimelineItem>
       
         <TimelineSeparator>
@@ -121,5 +123,7 @@ export default function MyCarerTimeLine() {
       </TimelineItem>
 
     </Timeline>
+    </>
   );
+  
 }
