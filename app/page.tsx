@@ -1,6 +1,3 @@
-import Image from "next/image";
-import StarRating from "./StarRating/page";
-import Hero from "./hero/page";
 
 // import MyComponent from "./simp/page"
 

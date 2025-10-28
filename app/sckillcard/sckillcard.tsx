@@ -25,7 +25,9 @@ export default function SkillCard({ imageSrc, name, level,  skillDescription }: 
         className="w-15 h-15 rounded-full object-cover mx-auto m-4" 
         />
       <h3 className="text-xl font-bold">{name}</h3>
-      <p className="flex mx-auto m-4">熟練度:<StarRating rating={level} /></p>
+      <div className="flex items-center ">
+      <p className="flex mx-auto mr-1">熟練度:</p><StarRating rating={level} />
+      </div>
       <p className="text-gray-700">{skillDescription}</p>
     </div>
   );
