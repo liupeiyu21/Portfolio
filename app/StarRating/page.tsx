@@ -12,12 +12,12 @@ type Props = {
 
 export default function StarRating({ rating }: Props) {
   return (
-    <div className="flex space-x-3 text-yellow-400">
+    <div className="flex space-x-1 text-yellow-400">
       {[1, 2, 3, 4, 5].map((i) => (
         <FontAwesomeIcon
           key={i}
           icon={i <= rating ? solidStar : regularStar}
-          className="text-[20px]"
+          className="text-[15px]"
         />
       ))}
     </div>
