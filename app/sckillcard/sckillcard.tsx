@@ -1,4 +1,4 @@
-import StarRating from "../StarRating/page";
+import StarRating from "../StarRating/StarRating";
 
 const skills = [
   { name: 'JavaScript', imageSrc: '/javascript.png', level: 5, skillDescription: 'Webアプリ開発に幅広く使用しています。' },
