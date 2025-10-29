@@ -2,10 +2,11 @@
 
 export default function MyInformation() {
     return (
-            <div>
-              <nav className="border-b border-gray-200 p-4 flex justify-between mx-auto container items-center " >
-                <div className="text-4xl">Portfolio</div>
-                 <div className="space-x-12 font-medium">
+      <>
+            <div className="  bg-blue-50 pb-20">
+              <nav className="border-b border-gray-200 p-4 flex justify-between mx-auto w-full items-center bg-blue-100" >
+                <div className="text-4xl ml-4">Portfolio</div>
+                 <div className="space-x-12 font-medium mr-4">
                   <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">自己紹介</a>
                   <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">技術スキル</a>
                   <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">制作物</a>
@@ -29,6 +30,7 @@ export default function MyInformation() {
                 {/* <Hero /> */}
               </div>
             </div>
+      </>
     )
 
 }

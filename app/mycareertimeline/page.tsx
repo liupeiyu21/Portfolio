@@ -64,24 +64,7 @@ export default function MyCarerTimeLine() {
       </TimelineItem>
 
 
-            <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot color="success" />
-          <TimelineConnector className='h-40' />
-        </TimelineSeparator>
-        <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32 '>
-              <img 
-                src="/university.jpeg" 
-                alt="university icon" 
-                className='w-15 h-15 rounded-full object-cover'
-              />
-              <div>
-                <p>2018年7月 - 2018年6月 中国河南省農業大学　　動物科学</p>
-              </div>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
+
 
 
       <TimelineItem>
@@ -90,7 +73,7 @@ export default function MyCarerTimeLine() {
           <TimelineConnector className='h-40' />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32'>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32'>
               <img 
                 src="/TCCICon.jpeg" 
                 alt="university icon" 
@@ -108,7 +91,7 @@ export default function MyCarerTimeLine() {
           <TimelineDot color="success" />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32 '>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32 '>
               <img 
                 src="/nihonndennshi.jpeg" 
                 alt="university icon" 
