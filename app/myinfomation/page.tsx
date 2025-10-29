@@ -25,7 +25,7 @@ export default function MyInformation() {
                   <p className="text-2xl sm:text-xl text-[#515050]  mx-auto container pt-1  whitespace-nowrap ">リュウ ハイギョク</p>
                   <h1 className="text-2xl sm:text-2xl font-bold  mx-auto container ">劉佩玉<span className="text-[14px] pt-4">中国</span></h1>
                   <h3 className="mx-auto container font-bold text-[#6b6969]">日本電子専門学校 <span className="text-[14px]">Webデザイン科</span></h3>
-                  <p className="mx-auto container pt-2 text-[#054685] text-[30px] font-extrabold">継続は力になり</p>
+                  <p className="mx-auto container pt-2 text-[#054685] text-[30px] font-extrabold">継続は力なり</p>
                 </div>
                 {/* <Hero /> */}
               </div>
