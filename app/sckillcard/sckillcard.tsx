@@ -1,4 +1,5 @@
 import StarRating from "../StarRating/StarRating";
+import Image from "next/image";
 
 const skills = [
   { name: 'JavaScript', imageSrc: '/javascript.png', level: 5, skillDescription: 'Webアプリ開発に幅広く使用しています。' },
@@ -18,10 +19,12 @@ type SkillCardProps = {
 function SkillCard({ imageSrc, name, level, skillDescription }: SkillCardProps) {
   return (
     <div className="w-60 border border-blue-500 p-4 rounded-xl shadow-xl flex flex-col text-center hover:scale-105 transition-transform duration-300">
-      <img
+      <Image
         src={imageSrc}
         alt={name}
         className="w-16 h-16 rounded-full object-cover mx-auto mb-3"
+        width={64}
+        height={64}
       />
       <h3 className="text-xl font-bold">{name}</h3>
       <div className="flex items-center justify-center mb-2">
