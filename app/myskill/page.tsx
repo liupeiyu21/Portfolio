@@ -27,8 +27,8 @@ import SkillCard from '../sckillcard/sckillcard';
 
 export default function MySkill() {
     return (
-        <section className="mx-auto container py-20">
-            <h2 className="text-3xl font-bold mb-6">My Skills</h2>
+        <section className="mx-auto container py-20" id='skills'>
+            <h2 className="p-8 text-3xl font-bold mb-6">技術スキル</h2>
             <div className="flex flex-wrap gap-6 mx-auto justify-center">
                 <SkillCard />
             </div>

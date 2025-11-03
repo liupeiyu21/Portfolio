@@ -3,19 +3,38 @@
 export default function MyInformation() {
     return (
       <>
-            <div className="  bg-blue-50 pb-20">
-              <nav className="border-b border-gray-200 p-4 flex justify-between mx-auto w-full items-center bg-blue-100" >
+            <div className="  bg-blue-50 pb-20 ">
+              <nav className="fixed top-0 left-0 z-50 border-b border-gray-200 p-4 flex justify-between mx-auto w-full items-center bg-blue-100">
                 <div className="text-4xl ml-4">Portfolio</div>
-                 <div className="space-x-12 font-medium mr-4">
-                  <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">自己紹介</a>
-                  <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">技術スキル</a>
-                  <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">制作物</a>
-                 </div>
+
+                <ul className="flex space-x-12 font-medium mr-4">
+                  <li className="cursor-pointer">
+                    <a href="#" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">
+                      自己紹介
+                    </a>
+                  </li>
+                  <li className="cursor-pointer">
+                    <a href="#education" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">
+                      学歴・職歴
+                    </a>
+                  </li>
+                  <li className="cursor-pointer">
+                    <a href="#skills" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">
+                      技術スキル
+                    </a>
+                  </li>
+                  <li className="cursor-pointer">
+                    <a href="#works" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">
+                      制作物
+                    </a>
+                  </li>
+                </ul>
               </nav>
+
               {/* ファスビュー */}
-              <div className=" ">
+              <div className="pt-10">
         
-                <div className="items-center text-center">
+                <div className="items-center text-center ">
                   <img 
                     src="./myphoto.png" 
                     alt="my photo" 

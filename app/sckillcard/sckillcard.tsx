@@ -2,10 +2,12 @@ import StarRating from "../StarRating/StarRating";
 import Image from "next/image";
 
 const skills = [
-  { name: 'JavaScript', imageSrc: '/javascript.png', level: 5, skillDescription: 'Webアプリ開発に幅広く使用しています。' },
-  { name: 'TypeScript', imageSrc: '/typescript.png', level: 4, skillDescription: '型定義により、保守性の高いコードを実現しています。' },
-  { name: 'React', imageSrc: '/react.png', level: 4, skillDescription: 'コンポーネント設計やHooksを活用した開発が可能です。' },
-  { name: 'PHP', imageSrc: '/php.png', level: 4, skillDescription: 'サーバーサイド開発とAPI構築を経験しています。' },
+  { name: 'JavaScript', imageSrc: '/javascript.png', level: 4, skillDescription: '学校でのプログラミング教育で学びました。JavaScriptを使用して二つのサイトを制作したことがあります。' },
+  { name: 'HTML', imageSrc: '/html.png', level: 4, skillDescription: 'マークアップ言語の基本を理解しており、セマンティックなHTMLを使用して構造を適切に表現できます。' },
+  { name: 'CSS', imageSrc: '/css.png', level: 4, skillDescription: 'レスポンシブデザインやFlexbox、Gridレイアウトを活用して、さまざまなデバイスで美しいデザインを実現しています。' },
+  { name: 'TypeScript', imageSrc: '/typescript.png', level: 3, skillDescription: '型定義により、保守性の高いコードを実現しています。これからの新規開発ではTypeScriptを使っていくだろうなと考えています。今回のポートフォリオでもTypeScriptを活用しています。' },
+  { name: 'React', imageSrc: '/react.png', level: 4, skillDescription: 'リンクをクリックするとURLを変わるのに、ページ全体が切り替わらずに一部がけが変化しています。非常に更新し早いです。難しい感じたことはhooksを使った状態管理です。' },
+  { name: 'PHP', imageSrc: '/php.png', level: 4, skillDescription: 'サーバーサイド開発とAPI構築を経験しています。PHPを使用したTODOアプリの開発を行いました。' },
   { name: 'MySQL', imageSrc: '/mysql.png', level: 4, skillDescription: 'データベース設計やSQLクエリの最適化を行いました。' },
 ];
 

@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function MyCarerTimeLine() {
   return (
     <>
-    <h2 className=" p-4  mx-auto container text-2xl font-bold" >学歴・職歴</h2>
+    <h2 className=" p-8  mx-auto container text-2xl font-bold" id="education">学歴・職歴</h2>
      
     <Timeline position="alternate">
 
