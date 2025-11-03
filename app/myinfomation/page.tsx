@@ -28,6 +28,12 @@ export default function MyInformation() {
                       制作物
                     </a>
                   </li>
+                  <li>
+                    <a href="#after-class-works" className="hover:text-blue-800 hover:font-extrabold transition-all duration-300">
+                      課外制作物
+                    </a>
+                  </li>
+
                 </ul>
               </nav>
 
