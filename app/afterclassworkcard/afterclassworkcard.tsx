@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 const works = [
-  { name: 'スポーツフェスティバルサイト', imageSrc: '/sports.png', skill: 'React,JavaScript', time: '2024年6月ー2024年9月', skillDescription: '１、2年合同チームでサイト制作。スポーツフェスティバルが楽しみになるように、情報を分かりやすく紹介することを意識しました。' },
-  { name: '新入生のワークショップ', imageSrc: '/newstudent.png', skill: 'figma', time: '2025年3月26日ー4月7日', skillDescription: '新入生たちがゲームを通じて、お互いのことや学科の雰囲気を理解できるようにするプロジェクトです。' },
+  { name: 'スポーツフェスティバルサイト（チーム）', imageSrc: '/sports.png', skill: 'React,JavaScript', time: '2024年6月ー2024年9月', skillDescription: '１、2年合同チームでサイト制作。スポーツフェスティバルが楽しみになるように、情報を分かりやすく紹介することを意識しました。' },
+  { name: '新入生のワークショップ（チーム）', imageSrc: '/newstudent.png', skill: 'figma', time: '2025年3月26日ー4月7日', skillDescription: '新入生たちがゲームを通じて、お互いのことや学科の雰囲気を理解できるようにするプロジェクトです。' },
 ];
 
 type SportsCardProps = {
