@@ -76,7 +76,7 @@ export default function MyCarerTimeLine() {
           <TimelineConnector className='h-40' />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32'>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32'>
               <Image
                 src="/TCCICon.jpeg" 
                 alt="university icon" 
@@ -96,7 +96,7 @@ export default function MyCarerTimeLine() {
           <TimelineDot color="success" />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32 '>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32 '>
               <Image 
                 src="/nihonndennshi.jpeg" 
                 alt="university icon" 
