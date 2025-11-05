@@ -45,13 +45,13 @@ export default function MyCarerTimeLine() {
         <TimelineContent>
           <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-34 '>
               <div>
-                <p>2018年7月 - 2019年1月 内モンゴル伊利実業集団有限公司</p>
+                <p>2018年7月 - 2021年5月 内モンゴル伊利実業集団有限公司</p>
               </div>
           </div>
         </TimelineContent>
       </TimelineItem>
 
-      <TimelineItem>
+      {/* <TimelineItem>
       
         <TimelineSeparator>
           <TimelineDot color="error" />
@@ -64,7 +64,7 @@ export default function MyCarerTimeLine() {
               </div>
           </div>
         </TimelineContent>
-      </TimelineItem>
+      </TimelineItem> */}
 
 
 
