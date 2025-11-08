@@ -21,7 +21,7 @@ export default function MyCarerTimeLine() {
           <TimelineConnector className='h-40' />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-34 '>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-34 hover:scale-105 transition-transform duration-300'>
               <Image
                 src="/university.jpeg" 
                 alt="university icon" 
@@ -43,7 +43,7 @@ export default function MyCarerTimeLine() {
           <TimelineConnector className='h-20' />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-34 '>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-34 hover:scale-105 transition-transform duration-300'>
               <div>
                 <p>2018年7月 - 2021年5月 内モンゴル伊利実業集団有限公司</p>
               </div>
@@ -76,7 +76,7 @@ export default function MyCarerTimeLine() {
           <TimelineConnector className='h-40' />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32'>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl mr-32 hover:scale-105 transition-transform duration-300'>
               <Image
                 src="/TCCICon.jpeg" 
                 alt="university icon" 
@@ -96,7 +96,7 @@ export default function MyCarerTimeLine() {
           <TimelineDot color="success" />
         </TimelineSeparator>
         <TimelineContent>
-          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32 '>
+          <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-32 hover:scale-105 transition-transform duration-300'>
               <Image 
                 src="/nihonndennshi.jpeg" 
                 alt="university icon" 
