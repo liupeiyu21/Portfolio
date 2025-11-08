@@ -45,7 +45,7 @@ export default function MyCarerTimeLine() {
         <TimelineContent>
           <div className='flex items-center space-x-4 border border-blue-500 p-2 rounded-xl shadow-xl ml-34 hover:scale-105 transition-transform duration-300'>
               <div>
-                <p>2018年7月 - 2021年5月 内モンゴル伊利実業集団有限公司</p>
+                <p>2018年7月 - 2021年5月 内モンゴル伊利実業集団有限公司 技術職</p>
               </div>
           </div>
         </TimelineContent>
